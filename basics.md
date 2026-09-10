@@ -1,5 +1,6 @@
 ##CLI navigation
 
+```cisco
 enable
 disable
 configure terminal (conf t)
