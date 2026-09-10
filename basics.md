@@ -1,4 +1,4 @@
-##CLI navigation
+###CLI navigation
 
 
 - enable
@@ -9,7 +9,7 @@
 - ?
 - do (allows you to run privileged EXEC-mode commands from inside a configuration mode without having to exit it)
 
-##Basic configuration commands
+###Basic configuration commands
 
 - hostname R1
 - no ip domain-lookup (this disables DNS lookup if you make a typo, so the ClI dosent just freeze)
