@@ -1,9 +1,10 @@
 ## Assigning IP addresses
 
-- interface gigabitethernet0/0/0
-- ip address <IP> <subnet mask>
-- no shutdown
-
+```cisco
+ interface gigabitethernet0/0/0
+ ip address <IP> <subnet mask>
+ no shutdown
+``` 
 ## Default gateway
 
 - ip default-gateway <IP>
