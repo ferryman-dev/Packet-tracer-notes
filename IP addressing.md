@@ -6,19 +6,20 @@
  no shutdown
 ``` 
 ## Default gateway
-
-- ip default-gateway <IP>
-
+```cisco
+ip default-gateway <IP>
+```
 ## Verification
-
-- show ip interface brief
-- show interfaces
-- ping <IP>
-
+```cisco
+show ip interface brief
+show interfaces
+ ping <IP>
+```
 ### Example router configuration
-
-- enable
-- conf t
-- interface gigabitethernet0/0/0
-- ip address 192.168.1.1 255.255.255.0
-- no shutdown
+```cisco
+ enable
+ conf t
+interface gigabitethernet0/0/0
+ip address 192.168.1.1 255.255.255.0
+no shutdown
+```
